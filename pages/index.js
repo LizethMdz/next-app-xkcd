@@ -2,7 +2,8 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 
-import fs from 'node:fs/promises'
+import fs from 'fs/promises'
+
 import { Layout } from 'components/Layout.js'
 import { useI18N } from 'context/i18n.js'
 
